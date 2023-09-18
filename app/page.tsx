@@ -73,8 +73,8 @@ const SEOWidget = () => {
         <div className=" h-5/6 w-11/12 bg-blue-dark jusify-center align-center flex flex-row m-5">
           <div className='jusify-center align-center flex flex-col w-11/12 h-5/6'>
             <div className='text-white font-mono font-bold justify-center align-center flex text-4xl w-full m-20 max-sm:text-xl max-sm:m-5'><h1>Analyze Your Website Here.. </h1></div>
-            <div className='flex flex-row justify-center align-center w-full'>
-            <div className='p-10 h-2/4 max-sm:w-11/12 w-6/12 max-sm:h-3/4 '>
+            <div className='flex flex-row justify-center align-center w-full sm:flex-col'>
+            <div className='p-10 h-2/4 max-sm:w-11/12 w-6/12  '>
               <Image
                 src={img} // Path to the image in the public directory
                 alt="My Image Alt Text"
