@@ -26,7 +26,7 @@ const Other_results: React.FC<BasicResultProps> = ({ result_data }) => {
     <div className='flex items-center justify-center p-0 w-screen'>
       <div className='w-11/12 bg-blue-dark flex flex-col jusify-center align-center m-5'>
         <div className='text-xl text-yellow-400 font-mono p-5 flex'>Basic Websites checks</div>
-        <div className='grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4 text-blue-800 text-xl max-sm:grid-cols-1 max-md:grid-cols-2'>
+        <div className='grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4 text-blue-800 text-xl max-sm:text-base max-sm:grid-cols-1 max-md:grid-cols-2'>
         {Object.keys(onpage_score).map((key) => (
             <div className=" flex justify-center align-center p-5 m-5 h-5/6 text-xl font-mono border rounded-full hover:bg-sky-800 hover:scale-110" key={key}>
               {onpage_score[key] ? <div className='text-green-400'>{key}:True</div> : <div className='text-red-400'>{key}:False</div>}
