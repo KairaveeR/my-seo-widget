@@ -103,10 +103,10 @@ const SEOWidget = () => {
                 <div className={`${isLoading ? 'block' : 'hidden'} w-full flex m-5 justify-center align-center`}>
                   <div className='w-5/6 border rounded-full bg-sky-200 flex flex-row'>
                     <div className="w-12 h-12 border-t-4 border-blue-500 border-solid rounded-full animate-spin flex justify-center align-center m-2"></div>
-                    <div className='flex align-middle justify-self-center p-5 text-xl text-blue-800'>Processing...</div>
+                    <div className='flex align-middle justify-self-center p-5 text-xl text-blue-800'>Processing</div>
                   </div>
                 </div>
-                <div className={`${isRes ? 'block' : 'hidden'} w-full m-5 flex justify-center align-center`}><button id="btn" className="w-5/6 bg-sky-200 border border-blue-700 rounded-full p-2 flex justify-center align-center items-center text-blue-800 text-xl" onClick={scrollToDiv}>Results..</button></div>
+                <div className={`${isRes ? 'block' : 'hidden'} w-full m-5 flex justify-center align-center`}><button id="btn" className="w-5/6 bg-sky-200 border border-blue-700 rounded-full p-2 flex justify-center align-center items-center text-blue-800 text-xl" onClick={scrollToDiv}>Results</button></div>
               </div>
             </div>
           </div>

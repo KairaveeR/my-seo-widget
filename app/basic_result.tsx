@@ -25,7 +25,7 @@ const Basic_result: React.FC<BasicResultProps> = ({ result_data }) => {
             <CircleAnimation score={onpage_score} />
           </div>
           <div className='m-5 flex justify-center items-center align-center text-yellow-500 text-lg'>
-          An "on-page score" in the context of SEO (Search Engine Optimization) typically refers to a numerical or qualitative assessment of how well a specific web page is optimized for search engines. This score is a measure of how effectively a webpage's on-page elements and content are aligned with best practices for SEO. The purpose of calculating an on-page score is to evaluate and improve a webpage's ability to rank well in search engine results pages (SERPs).
+          An on-page score in the context of SEO Search Engine Optimization typically refers to a numerical or qualitative assessment of how well a specific web page is optimized for search engines. This score is a measure of how effectively a webpage on-page elements and content are aligned with best practices for SEO. The purpose of calculating an on-page score is to evaluate and improve a webpage ability to rank well in search engine results pages SERP.
           </div>
         </div>
         <div className='flex flex-col m-5 mt-10 pt-5 w-11/12 item-center justify-between gap-10 h-full min-h-content sm:hidden'>
@@ -33,7 +33,7 @@ const Basic_result: React.FC<BasicResultProps> = ({ result_data }) => {
             <CircleAnimation score={onpage_score} />
           </div>
           <div className='m-5 flex justify-center items-center align-center text-yellow-500 text-lg'>
-          An "on-page score" in the context of SEO (Search Engine Optimization) typically refers to a numerical or qualitative assessment of how well a specific web page is optimized for search engines. This score is a measure of how effectively a webpage's on-page elements and content are aligned with best practices for SEO. The purpose of calculating an on-page score is to evaluate and improve a webpage's ability to rank well in search engine results pages (SERPs).
+          An on-page score in the context of SEO Search Engine Optimization typically refers to a numerical or qualitative assessment of how well a specific web page is optimized for search engines. This score is a measure of how effectively a webpage on-page elements and content are aligned with best practices for SEO. The purpose of calculating an on-page score is to evaluate and improve a webpages ability to rank well in search engine results pages SERPs.
           </div>
         </div>
       </div>
