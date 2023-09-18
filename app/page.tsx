@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import Basic_result from './basic_result';
 import Other_results from './other_results';
+import img from '../public/images/background.png';
 import axios from 'axios';
 
 const SEOWidget = () => {
@@ -74,19 +75,15 @@ const SEOWidget = () => {
             <div className='text-white font-mono font-bold justify-center align-center flex text-4xl w-full m-20 max-sm:text-xl max-sm:m-5'><h1>Analyze Your Website Here.. </h1></div>
             <div className='p-10 sm:hidden'>
               <Image
-                src="images/background.png?v=1" // Path to the image in the public directory
+                src={img} // Path to the image in the public directory
                 alt="My Image Alt Text"
-                width={500} // Set the width of the image
-                height={300} // Set the height of the image
               />
             </div>
             <div className='flex flex-row justify-center align-center w-full'>
               <div className='p-10 w-auto max-sm:hidden'>
                 <Image
-                  src="images/background.png?v=1" // Path to the image in the public directory
+                  src={img} // Path to the image in the public directory
                   alt="My Image Alt Text"
-                  width={500} // Set the width of the image
-                  height={300} // Set the height of the image
                 />
               </div>
               <div className='p-5 flex flex-col m-5'>
