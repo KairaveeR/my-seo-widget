@@ -81,7 +81,7 @@ const SEOWidget = () => {
               />
             </div>
             <div className='flex flex-row justify-center align-center w-full'>
-              <div className='p-10 max-sm:hidden'>
+              <div className='p-10 max-sm:hidden w-full h-1/2'>
                 <Image
                   src={img} // Path to the image in the public directory
                   alt="My Image Alt Text"
